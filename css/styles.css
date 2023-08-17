@@ -7,6 +7,7 @@ body {
     margin: 0;
     overflow: hidden;
     height: 100vh;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -64,27 +65,23 @@ ul {
 .head-text {
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 24px;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
-    
+    font-size: 24px;    
 }
 
 .main-text {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
     width: 350px;
 }
 
 .sec-text {
     font-size: 18px;
     color: #E5E7EB;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 .head-button {
-    background-color: #3C84F4;
+    background-color: #3882F6;
     color: white;
     font-weight: bold;
     font-size: 12px;
@@ -113,4 +110,41 @@ ul {
     justify-content: center;
     padding: 18px;
 
+}
+
+.info-bird {
+    height: 90px;
+    width: 90px;
+}
+
+.rand-info {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.rand-text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    align-items: center;
+}
+
+.info-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
