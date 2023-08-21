@@ -1,13 +1,11 @@
-* {
-    border: solid 1px red;
-}
+
 
 html,
 body {
     margin: 0;
     overflow: hidden;
     height: 100vh;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-family: Roboto, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -87,7 +85,7 @@ ul {
     font-size: 12px;
     height: 25px;
     width: 90px;
-    padding: 8px;
+    padding: 4px;
     border-radius: 8px;
 }
 
@@ -115,6 +113,7 @@ ul {
 .info-bird {
     height: 90px;
     width: 90px;
+    border-radius: 12px;
 }
 
 .rand-info {
@@ -141,10 +140,9 @@ ul {
     flex-direction: column;
     width: 130px;
     align-items: center;
+    justify-content: center;
 }
 
 .info-text {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+text-align: center;
 }
