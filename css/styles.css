@@ -3,16 +3,12 @@
 html,
 body {
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     height: 100vh;
     font-family: Roboto, 'Arial Narrow Bold', sans-serif;
 
 }
 
-.container {
-    display: flex;
-    
-}
 
 img { 
     height: 200px;
@@ -145,4 +141,26 @@ ul {
 
 .info-text {
 text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    display: flex;
+    padding: 36px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-sign {
+    display: flex;
+    font-weight: bold; 
+    font-size: 18px;
+    justify-content: end;
+    padding: 12px;
+    margin-top: -50px;
 }
